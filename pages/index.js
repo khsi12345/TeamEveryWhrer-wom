@@ -10,7 +10,7 @@ const Home = () => (
       <h1 className="home">Home</h1>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-
+    <h1 className="home">Home</h1>
     {/* <Nav /> */}
   </div>
 );

@@ -34,7 +34,7 @@ class Dashboard extends PureComponent {
 
     return (
       <>
-        <Layout>
+        <Layout className="footer">
           <CurvedBoard>
             <div className="dash_top_btn_wrapper">
               <button className="day_btn" type="button">

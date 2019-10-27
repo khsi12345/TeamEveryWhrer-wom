@@ -1,5 +1,5 @@
-import React, { PureComponent } from "react";
-import "style/scss/circletransparent.scss";
+import React, { PureComponent } from 'react';
+import 'style/scss/circletransparent.scss';
 
 class CircleTransparent extends PureComponent {
   render() {

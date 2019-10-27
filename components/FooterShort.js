@@ -1,5 +1,5 @@
-import React, { PureComponent } from "react";
-import "style/scss/footerShort.scss";
+import React, { PureComponent } from 'react';
+import 'style/scss/footerShort.scss';
 
 class FooterShort extends PureComponent {
   render() {

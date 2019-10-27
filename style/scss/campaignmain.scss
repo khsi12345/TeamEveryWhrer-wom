@@ -33,18 +33,9 @@
   }
   .sp_l {
     margin-top: 36px;
-
-    span {
-      // margin-right: 46px;
-      // padding-left: 44px;
-    }
   }
   .su_l {
     margin-top: 21px;
-
-    span {
-      // margin-right: 40px;
-    }
   }
   .main_left {
     float: left;
@@ -212,11 +203,11 @@
             }
           }
           .shell_mid_empty {
-            height: 60px;
+            height: 190px;
           }
         }
         .shell_bottom {
-          margin-left: 20px;
+          margin-left: 0px;
           p {
             display: none;
           }
@@ -324,7 +315,6 @@
         .b_content {
           padding-right: 20px;
         }
-
         .option_div {
           display: flex;
           justify-content: center;

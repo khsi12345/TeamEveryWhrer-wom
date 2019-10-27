@@ -18,7 +18,7 @@ class Footer extends PureComponent {
                   />
                 </h1>
                 <div className="privacy_policy">
-                  <a clasName="" href="">
+                  <a className="" href="">
                     PRIVACY POLICY
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRESS</span>
                   </a>

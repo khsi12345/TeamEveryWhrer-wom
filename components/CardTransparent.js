@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react';
-import Link from 'next/link';
 import 'style/scss/cardtransparent.scss';
 
 class CardTransparent extends PureComponent {

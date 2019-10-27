@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import Footer from 'components/Footer';
-import '../style/scss/home.scss';
+import 'style/scss/home.scss';
 
 class Home extends PureComponent {
   render() {

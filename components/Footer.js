@@ -5,7 +5,7 @@ class Footer extends PureComponent {
   render() {
     return (
       <>
-        <div className="footer">
+        <div className={this.props.className}>
           <div className="bg">
             <footer>
               <div className="footer_wrap">
@@ -18,7 +18,7 @@ class Footer extends PureComponent {
                   />
                 </h1>
                 <div className="privacy_policy">
-                  <a className="" href="">
+                  <a clasName="" href="">
                     PRIVACY POLICY
                     <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRESS</span>
                   </a>

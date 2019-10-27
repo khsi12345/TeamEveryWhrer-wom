@@ -1,25 +1,14 @@
 import React from 'react';
-import App, { Container } from 'next/app';
+import App from 'next/app';
 import Head from 'next/head';
 import normalize from 'style/scss/reset.css';
 
 class MyApp extends App {
-  // componentDidMount() {
-  //   // Remove the server-side injected CSS.
-  //   const jssStyles = document.querySelector('#jss-server-side');
-  //   if (jssStyles) {
-  //     jssStyles.parentNode.removeChild(jssStyles);
-  //   }
-
-  //   global.IMP.init('imp64199626');
-  // }
-
   render() {
     // console.log(this.props);
     const { Component, pageProps } = this.props;
 
     return (
-      // <Container>
       <>
         <Head>
           {/* <title>Deep Connecting</title> */}
@@ -41,10 +30,8 @@ class MyApp extends App {
         <Component {...pageProps} style={normalize} />
         {/* </ThemeProvider> */}
       </>
-      // </Container>
     );
   }
 }
 
 export default MyApp;
-

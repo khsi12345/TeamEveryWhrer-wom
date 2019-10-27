@@ -20,7 +20,7 @@ class Discover extends PureComponent {
   render() {
     return (
       <>
-        <Layout>
+        <Layout className="big_footer">
           <CurvedBoard>
             <div className="discover_container">
               <button className="dis_create_cam_btn" type="button">

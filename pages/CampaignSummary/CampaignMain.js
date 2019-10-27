@@ -43,24 +43,6 @@ class SummaryNone extends PureComponent {
         </div>
         <div className="sp_l lan">
           <span>Spoken language</span>
-<<<<<<< HEAD
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          {/* <Selector /> */}
-        </div>
-        <div className="su_l lan">
-          <span>Subtitle language</span>
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          <Toggle />
-          {/* <Selector /> */}
-=======
           <Toggle name1="ES" name2="EN" />
           <Toggle name1="FR" name2="IT" />
           <Toggle name1="DE" name2="ES" />
@@ -77,7 +59,6 @@ class SummaryNone extends PureComponent {
           <Toggle name1="IT" name2="DE" />
           <Toggle name1="RU" name2="FR" />
           <Selector />
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         </div>
         <div className="main_left">
           <div className="custom">
@@ -145,21 +126,6 @@ class SummaryNone extends PureComponent {
             <tbody>
               <tr>
                 <td>
-<<<<<<< HEAD
-                  <span>ADIDAS COM</span>
-                  <Toggle />
-                </td>
-                <td>
-                  K-MART COM
-                  <Toggle />
-                </td>
-                <td>
-                  YEAY COM
-                  <Toggle />
-                </td>
-                <td>
-                  KADEWE COM
-=======
                   <div className="ch_text">ADIDAS COM</div>
                   <Toggle />
                 </td>
@@ -173,39 +139,26 @@ class SummaryNone extends PureComponent {
                 </td>
                 <td>
                   <div className="ch_text">KADEWE COM</div>
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
                   <Toggle />
                 </td>
                 <td>FOOT</td>
               </tr>
               <tr>
                 <td>
-<<<<<<< HEAD
-                  ADIDAS AU
-=======
                   <div className="ch_text">ADIDAS AU</div>
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
                   <Toggle />
                 </td>
                 <td />
                 <td />
                 <td>
-<<<<<<< HEAD
-                  ADIDAS BER S...
-=======
                   <div className="ch_text">ADIDAS BER S...</div>
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
                   <Toggle />
                 </td>
                 <td>FOOT</td>
               </tr>
               <tr>
                 <td>
-<<<<<<< HEAD
-                  ADIDAS DE
-=======
                   <div className="ch_text">ADIDAS DE</div>
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
                   <Toggle />
                 </td>
                 <td />
@@ -227,19 +180,11 @@ class SummaryNone extends PureComponent {
               <Toggle />
             </div>
             <div className="boost">
-<<<<<<< HEAD
-              <span>Boost Content</span>
-              <span className="option_div">{`< 1 >`}</span>
-            </div>
-            <div className="boost">
-              <span>Boost Creator</span>
-=======
               <span className="b_content">Boost Content</span>
               <span className="option_div">{`< 1 >`}</span>
             </div>
             <div className="boost">
               <span className="b_content">Boost Creator</span>
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
               <span className="option_div">{`< 1 >`}</span>
             </div>
           </div>

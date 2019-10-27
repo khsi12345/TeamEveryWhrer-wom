@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import React, { PureComponent } from "react";
-
-class Campaign extends PureComponent {
-  render() {
-    return <div> 캠페인</div>;
-=======
 import React, { PureComponent } from 'react';
 import TargetCard from 'components/TargetCard';
 import CreateCampaign from 'components/CreateCampaign';
@@ -46,7 +39,7 @@ class Campaign extends PureComponent {
       >
         <CurvedBoard>
           <div className="campaign">
-            {/* <CampaignMain /> */}
+            <CampaignMain />
 
             {/* 페이지에 list item이 없는 페이지 */}
             {/* <div className="card_list">
@@ -64,7 +57,7 @@ class Campaign extends PureComponent {
             <SummaryNone /> */}
 
             {/* 페이지에 list item이 있는 페이지 */}
-            <CreateCampaign className="create_btn" />
+            {/* <CreateCampaign className="create_btn" />
             <div className="card_list">
               {this.state.card.map(el => {
                 return (
@@ -104,12 +97,11 @@ class Campaign extends PureComponent {
             </div>
             <div className="page_number">
               <PageNumber />
-            </div>
+            </div> */}
           </div>
         </CurvedBoard>
       </Layout>
     );
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
   }
 }
 

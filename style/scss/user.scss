@@ -1,0 +1,73 @@
+.user {
+  padding: 0 45px;
+
+  .table {
+    margin-top: 34px;
+    padding-right: 200px;
+    width: 100%;
+    border-spacing: 10px;
+
+    th {
+      padding: 0 8px 4px;
+      border: solid 1px #979797;
+      background-color: #d8d8d8;
+      font-family: 'Montserrat Montserrat-SemiBold';
+      font-size: 22px;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+      text-align: left;
+    }
+    td {
+      padding-top: 5px;
+      height: 40px;
+      border-right: 1px solid gray;
+      border-bottom: 1px solid gray;
+      font-family: 'Montserrat Montserrat-SemiBold';
+      font-size: 22px;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #151515;
+
+      .tag {
+        // width: 100%;
+        // padding: 8px;
+      }
+    }
+    // .inline {
+    //   display: inline;
+    //   margin-right: 5px;
+    // }
+    .th_User {
+      width: 246px;
+    }
+    .th_Name {
+      width: 245px;
+    }
+    .empty {
+      border: none;
+    }
+    .plus {
+      text-align: center;
+      width: 32px;
+      height: 27px;
+      border-radius: 20px;
+      border: solid 1px #004070;
+      background-color: #0091ff;
+      font-weight: 600;
+      font-size: 22px;
+    }
+    .text {
+      width: auto;
+      margin-right: 4px;
+    }
+  }
+  .page_number {
+    position: absolute;
+    margin-left: 33%;
+    padding-bottom: 53px;
+    bottom: 0;
+  }
+}

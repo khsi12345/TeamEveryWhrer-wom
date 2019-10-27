@@ -1,0 +1,29 @@
+.campaign_none {
+  height: 750px;
+  .campaign_none_wrap {
+    display: flex;
+    margin-top: 280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .no_campaigns {
+      margin-bottom: 22px;
+      font-family: 'Montserrat Montserrat-SemiBold';
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: normal;
+      text-align: center;
+      color: #0f1642;
+    }
+    .text {
+      font-family: 'Montserrat Montserrat-Medium';
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.67;
+      letter-spacing: normal;
+      text-align: center;
+      color: #0f1642;
+    }
+  }
+}

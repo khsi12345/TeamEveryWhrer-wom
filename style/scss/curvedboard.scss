@@ -1,0 +1,33 @@
+.curved_wrapper {
+  position: absolute;
+  top: 90px;
+  background-color: #ffffff;
+  left: 5px;
+  width: 99%;
+  border-radius: 40px;
+  border: 1px solid black;
+  box-shadow: 15px 3px 10px 0px rgba(0, 0, 0, 0.85);
+  z-index: 2;
+  .tab_wrapper {
+    ul {
+      padding: 54px;
+      display: flex;
+      list-style: none;
+      li {
+        color: #bdbdbd;
+        font-size: 26px;
+        font-family: Montserrat;
+        font-weight: 600;
+        margin-right: 50px;
+        cursor: pointer;
+      }
+      li:first-child {
+        margin-right: 29px;
+      }
+      .active {
+        color: #0f1642;
+        border-bottom: 5px solid #0f1642;
+      }
+    }
+  }
+}

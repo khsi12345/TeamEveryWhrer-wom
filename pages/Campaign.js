@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import React, { PureComponent } from "react";
-
-class Campaign extends PureComponent {
-  render() {
-    return <div> 캠페인</div>;
-=======
 import React, { PureComponent } from 'react';
 import TargetCard from 'components/TargetCard';
 import CreateCampaign from 'components/CreateCampaign';
@@ -13,10 +6,10 @@ import CampaignItem from 'components/CampaignItem';
 import data from 'data/data.json';
 import data2 from 'data/data2.json';
 import 'style/scss/campaign.scss';
+import Layout from 'components/Layout';
 import CampaignMain from './CampaignSummary/CampaignMain';
 import SummaryNone from './CampaignSummary/SummaryNone';
-import Layout from '../components/Layout';
-import CurvedBoard from '../components/CurvedBoard';
+import CurvedBoard from 'components/CurvedBoard';
 
 class Campaign extends PureComponent {
   constructor() {
@@ -109,7 +102,6 @@ class Campaign extends PureComponent {
         </CurvedBoard>
       </Layout>
     );
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
   }
 }
 

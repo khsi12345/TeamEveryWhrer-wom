@@ -218,7 +218,7 @@ class DiscoverDetail extends PureComponent {
                             <p className="detail_bottom_p">In-use</p>
                             <tr>
                               <td className="width_limit">
-                                YEAY, Zelando, Submarino{' '}
+                                YEAY, Zelando, Submarino
                               </td>
                             </tr>
                             <p className="detail_bottom_p">In-promotion</p>

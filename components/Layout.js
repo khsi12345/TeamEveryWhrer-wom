@@ -10,15 +10,9 @@ class Layout extends PureComponent {
       <>
         <div
           style={{
-<<<<<<< HEAD
-            backgroundColor: '#000000',
-            // width: '1920px',
-            height: '2344px',
-=======
             // backgroundColor: '#000000',
             // width: '1920px',
             // height: '2344px',
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
             position: 'relative',
           }}
         >
@@ -31,11 +25,7 @@ class Layout extends PureComponent {
           {/* <div> */}
           {this.props.children}
           {/* </div> */}
-<<<<<<< HEAD
-          <Footer />
-=======
           <Footer className={this.props.className} />
->>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         </div>
       </>
     );

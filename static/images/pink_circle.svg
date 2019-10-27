@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>17BFD8A6-74AE-4DA9-967B-315C9C977AD1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <radialGradient cx="69.7537331%" cy="9.67983199%" fx="69.7537331%" fy="9.67983199%" r="111.208878%" id="radialGradient-1">
+            <stop stop-color="#FF3156" offset="0%"></stop>
+            <stop stop-color="#9454A4" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Discover---detail-(improved)" transform="translate(-1708.000000, -441.000000)" fill="url(#radialGradient-1)" stroke="#D3D3D3" stroke-width="2">
+            <g id="points" transform="translate(921.000000, 442.000000)">
+                <circle id="Oval-Copy-2" cx="798" cy="10" r="10"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

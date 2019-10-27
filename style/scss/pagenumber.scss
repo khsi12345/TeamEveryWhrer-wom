@@ -5,21 +5,20 @@
   font-size: 18px;
   justify-content: center;
   display: flex;
+  align-items: center;
 
   .circle_space {
     background-color: #ededed;
     border-radius: 50%;
     justify-content: center;
     width: 35px;
+    height: 35px;
     display: flex;
     margin-right: 25px;
     margin-left: 25px;
-    .previous {
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 5px;
-    }
-    .next {
+    padding: 0;
+
+    i {
       font-size: 18px;
       font-weight: bold;
       margin-top: 5px;
@@ -43,8 +42,6 @@
       letter-spacing: 4.4px;
       color: #2c2c2c;
       margin: 5px 8px;
-    }
-    li:first-child {
     }
   }
 }

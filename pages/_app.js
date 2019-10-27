@@ -1,5 +1,5 @@
 import React from 'react';
-import App, { Container } from 'next/app';
+import App from 'next/app';
 import Head from 'next/head';
 import normalize from 'style/scss/reset.css';
 
@@ -9,7 +9,6 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      // <Container>
       <>
         <Head>
           {/* <title>Deep Connecting</title> */}
@@ -31,7 +30,6 @@ class MyApp extends App {
         <Component {...pageProps} style={normalize} />
         {/* </ThemeProvider> */}
       </>
-      // </Container>
     );
   }
 }

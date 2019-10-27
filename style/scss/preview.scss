@@ -1,0 +1,117 @@
+.inside_slap_btn {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  margin-right: 86px;
+  // .half_pill_left {
+  //   border: 3px solid #0f1642;
+  //   display: inline-block;
+  //   padding: 10px;
+  //   width: 109px;
+  //   height: 26px;
+  //   position: relative;
+  //   text-align: center;
+  //   font-size: 16px;
+  //   font-weight: 600;
+  //   line-height: 1.13;
+  //   letter-spacing: -0.1px;
+  //   border-radius: 100px;
+  //   border-top-right-radius: 0px;
+  //   border-bottom-right-radius: 0px;
+  // }
+  // .half_pill_right {
+  //   border: 3px solid #0f1642;
+  //   border-left: none;
+  //   display: inline-block;
+  //   padding: 10px;
+  //   width: 109px;
+  //   height: 26px;
+  //   position: relative;
+  //   text-align: center;
+  //   font-size: 16px;
+  //   font-weight: 600;
+  //   line-height: 1.13;
+  //   letter-spacing: -0.1px;
+  //   border-radius: 100px;
+  //   border-top-left-radius: 0px;
+  //   border-bottom-left-radius: 0px;
+  // }
+  .btn {
+    border: 3px solid #0f1642;
+    display: inline-block;
+    padding: 10px;
+    width: 109px;
+    height: 26px;
+    position: relative;
+    text-align: center;
+    transition: background 600ms ease, color 600ms ease;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    letter-spacing: -0.1px;
+  }
+
+  input[type="radio"].toggle {
+    display: none;
+    & + label {
+      cursor: pointer;
+      min-width: 60px;
+      &:hover {
+        background: none;
+        color: #1a1a1a;
+      }
+      // &:after {
+      //   background: #1a1a1a;
+      //   border-top-left-radius: 100px;
+      //   border-bottom-left-radius: 100px;
+      // }
+      //   content: "";
+      //   height: 100%;
+      //   position: absolute;
+      //   top: 0;
+      //   transition: left 200ms cubic-bezier(0.77, 0, 0.175, 1);
+      //   width: 100%;
+      //   z-index: -1;
+      // }
+    }
+    &.toggle-left + label {
+      border-right: 0;
+
+      &:after {
+        left: 100%;
+      }
+    }
+    &.toggle-right + label {
+      margin-left: -5px;
+      // &:after {
+      //   left: -100%;
+      // }
+    }
+    &:checked + label {
+      cursor: default;
+      color: #ffffff;
+      background-color: #000000;
+      transition: color 200ms;
+      // &:after {
+      //   left: 0;
+      // }
+    }
+  }
+  .left_radius {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+  }
+  .right_radius {
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+}
+
+.empty_space {
+  height: 60px;
+  border-top-right-radius: none;
+  border-top-right-radius: none;
+}
+
+.preview_container {
+}

@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent } from "react";
 
 class Header extends PureComponent {
   render() {
@@ -13,6 +13,10 @@ class Header extends PureComponent {
         <link
           href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
           rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
         />
       </div>
     );

@@ -1,0 +1,29 @@
+.colorful_point_container {
+  float: left;
+  position: absolute;
+  z-index: 10;
+  .color_wrapper {
+    display: inline-block;
+    text-align: center;
+    .color_gray_word {
+      color: #a5a8b8;
+      font-size: 16px;
+    }
+    img {
+      // position: absolute;
+      // top: 73px;
+      // left: -11px;
+    }
+    .stick_flex {
+      display: flex;
+      .hide_stick {
+        width: 95px;
+      }
+      .gray_stick {
+        width: 95px;
+        border-left: 1px solid #a5a8b8;
+        height: 1086px;
+      }
+    }
+  }
+}

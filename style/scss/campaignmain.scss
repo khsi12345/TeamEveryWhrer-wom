@@ -14,7 +14,11 @@
   .filter_custom {
     margin-top: 20px;
     h5 {
+<<<<<<< HEAD
+      width: 300px;
+=======
       width: 330px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
     }
     .filter_wrapper {
       // padding-left: 40px;
@@ -30,6 +34,18 @@
     line-height: normal;
     letter-spacing: normal;
     color: #6b6b6b;
+<<<<<<< HEAD
+
+    span {
+      margin-right: 46px;
+    }
+  }
+  .sp_l {
+    margin-top: 36px;
+  }
+  .su_l {
+    margin-top: 21px;
+=======
   }
   .sp_l {
     margin-top: 36px;
@@ -45,6 +61,7 @@
     span {
       // margin-right: 40px;
     }
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
   }
   .main_left {
     float: left;
@@ -61,7 +78,10 @@
       // margin-bottom: 100px;
       padding-bottom: 40px;
       .financials {
+<<<<<<< HEAD
+=======
         margin-bottom: 39px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         font-family: 'Montserrat Montserrat-Bold';
         font-size: 50px;
         font-weight: bold;
@@ -70,7 +90,10 @@
         color: #0f1642;
       }
       .sale {
+<<<<<<< HEAD
+=======
         margin-bottom: 17px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         font-family: 'Montserrat  Montserrat-Regular';
         font-size: 28px;
         font-weight: normal;
@@ -96,7 +119,10 @@
         color: #939396;
       }
       .confi {
+<<<<<<< HEAD
+=======
         margin-top: 34px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         font-family: Montserrat;
         font-size: 28px;
         font-weight: normal;
@@ -114,7 +140,10 @@
         color: #0f1642;
       }
       .budget {
+<<<<<<< HEAD
+=======
         margin-top: 44px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         opacity: 0.5;
         font-family: 'Montserrat Montserrat-Bold';
         font-size: 37px;
@@ -270,7 +299,10 @@
       color: #0f1642;
     }
     .text {
+<<<<<<< HEAD
+=======
       margin-bottom: 17px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
       font-family: Montserrat;
       font-size: 35px;
       font-weight: normal;
@@ -282,18 +314,23 @@
       width: 100%;
       th {
         padding-bottom: 20px;
+<<<<<<< HEAD
+=======
         font-family: Montserrat;
         font-size: 28px;
         font-weight: 500;
         line-height: normal;
         letter-spacing: normal;
         color: #9d9e9f;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
         text-align: left;
       }
       tbody {
         tr {
           td {
             padding-bottom: 34px;
+<<<<<<< HEAD
+=======
             .ch_text {
               display: inline-block;
               width: 125px;
@@ -301,6 +338,7 @@
               text-overflow: ellipsis;
               overflow: hidden;
             }
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
           }
         }
       }
@@ -317,6 +355,42 @@
     .main_option {
       display: flex;
       justify-content: space-between;
+<<<<<<< HEAD
+      .boost {
+        display: flex;
+      }
+    }
+    .option_div {
+      display: flex;
+      justify-content: center;
+      vertical-align: middle;
+      width: 50.3px;
+      height: 28px;
+      border-radius: 33.8px;
+      border: solid 0 #979797;
+      background-color: #f5f4f5;
+    }
+    .hashtag {
+      margin-right: 50px;
+      .hashtag_left {
+        border-top-left-radius: 23.8px;
+        border-bottom-left-radius: 23.8px;
+        border: solid 0 #979797;
+        background-color: #000000;
+        color: #ffffff;
+      }
+      .hashtag_right {
+        border-top-right-radius: 23.8px;
+        border-bottom-right-radius: 23.8px;
+        border: solid 0 #979797;
+        background-color: #979797;
+      }
+      .hashtag_left_text {
+        padding: 15px;
+      }
+      .hashtag_right_text {
+        padding: 15px;
+=======
       margin-bottom: 29px;
       align-items: baseline;
       .boost {
@@ -366,12 +440,16 @@
           border: solid 0 #979797;
           background-color: #979797;
         }
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
       }
     }
     .main_bottom {
       display: flex;
       justify-content: space-around;
+<<<<<<< HEAD
+=======
       margin-top: 61px;
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
       padding-bottom: 87px;
       font-family: 'Montserrat Montserrat-Regular';
       font-size: 30px;

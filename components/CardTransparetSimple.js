@@ -1,10 +1,12 @@
-import React, { PureComponent } from 'react';
-import 'style/scss/cardtransparent.scss';
+import React, { PureComponent } from "react";
+import Link from "next/link";
+import "style/scss/cardtransparent.scss";
 
-class CardTransparent extends PureComponent {
+class CardTransparentSimple extends PureComponent {
   render() {
     return (
       <div className="transparent_shell">
+        <div className="empty_space" />
         <div className="shell_top">
           <div className="emoticon_wrapper">
             <img src="/static/images/emoticon.png" alt="emoticon" />
@@ -13,6 +15,9 @@ class CardTransparent extends PureComponent {
         </div>
         <div className="shell_mid_empty" />
         <div className="shell_bottom">
+          <div className="empty_space" />
+          <div className="empty_space" />
+          <div className="empty_space" />
           <ul>
             <li className="icon_list">
               <div className="small_circle">
@@ -39,21 +44,10 @@ class CardTransparent extends PureComponent {
               <span>Superstar</span>
             </li>
           </ul>
-          <p
-            className="white_sentence"
-            style={{
-              color: '#ffffff',
-              marginTop: '13px',
-              fontSize: '11px',
-              marginBottom: '15px',
-              marginLeft: '10px',
-            }}
-          >
-            Redesigned from scratch and completely revised.
-          </p>
         </div>
       </div>
     );
   }
 }
-export default CardTransparent;
+
+export default CardTransparentSimple;

@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+import React, { PureComponent } from "react";
+
+class Campaign extends PureComponent {
+  render() {
+    return <div> 캠페인</div>;
+=======
 import React, { PureComponent } from 'react';
 import TargetCard from 'components/TargetCard';
 import CreateCampaign from 'components/CreateCampaign';
@@ -102,6 +109,7 @@ class Campaign extends PureComponent {
         </CurvedBoard>
       </Layout>
     );
+>>>>>>> bdf63b204c7c15c8f96debffff35872bef8bcf4f
   }
 }
 

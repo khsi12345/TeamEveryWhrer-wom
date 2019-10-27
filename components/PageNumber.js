@@ -10,7 +10,7 @@ class PageNumber extends PureComponent {
     return (
       <div className="pagenumber_container">
         <div className="circle_space">
-          <span className="previous">{`<`}</span>
+          <i className="fas fa-chevron-left" />
         </div>
         <ul>
           {this.getListNum().map(el => (
@@ -18,7 +18,7 @@ class PageNumber extends PureComponent {
           ))}
         </ul>
         <div className="circle_space">
-          <span className="next">{`>`}</span>
+          <i className="fas fa-chevron-right" />
         </div>
       </div>
     );

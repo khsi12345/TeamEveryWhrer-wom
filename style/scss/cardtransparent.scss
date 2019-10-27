@@ -18,14 +18,19 @@
     }
   }
   .shell_mid_empty {
-    height: 256.5px;
+    height: 305.5px;
+  }
+
+  .empty_space {
+    height: 12px;
   }
   .shell_bottom {
     margin-left: 20px;
-    ​ .list {
+
+    ul {
       margin-left: 10px;
       padding: 0;
-      .icon_list {
+      li {
         display: flex;
         list-style: none;
         .small_circle {
@@ -48,14 +53,8 @@
         }
       }
     }
-    p {
+    ​ .white_sentence {
       color: #ffffff;
-      font-size: 11px;
-      margin-top: 13px;
-      margin-bottom: 15px;
     }
-  }
-  .empty_space {
-    height: 12px;
   }
 }

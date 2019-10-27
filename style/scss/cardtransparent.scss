@@ -1,0 +1,60 @@
+.transparent_shell {
+  background: transparent;
+  width: 371px;
+  margin-left: 5px;
+  padding: 0;
+  .shell_top {
+    margin-left: 25px;
+    .emoticon_wrapper {
+      margin-top: 25px;
+      img {
+        width: 231px;
+      }
+    }
+    p {
+      color: #ffffff;
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  }
+  .shell_mid_empty {
+    height: 305.5px;
+  }
+
+  .empty_space {
+    height: 12px;
+  }
+  .shell_bottom {
+    margin-left: 20px;
+
+    ul {
+      margin-left: 10px;
+      padding: 0;
+      li {
+        display: flex;
+        list-style: none;
+        .small_circle {
+          background-color: #ffffff;
+          border-radius: 50%;
+          width: 22px;
+          text-align: center;
+          margin-bottom: 10px;
+          ​ img {
+            width: 14px;
+            margin-top: 7px;
+          }
+        }
+        span {
+          color: #ffffff;
+          font-weight: bold;
+          font-size: 17px;
+          margin-left: 8px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    ​ .white_sentence {
+      color: #ffffff;
+    }
+  }
+}

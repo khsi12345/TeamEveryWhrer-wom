@@ -1,0 +1,84 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  z-index: 10;
+
+  .logo_title {
+    display: flex;
+    align-items: center;
+
+    .adidas_logo {
+      // width: 80px;
+      // height: 52px;
+      margin: 0 17px 25px 22px;
+      .logo {
+        width: 80px;
+        height: 52px;
+        background-image: url('/static/images/adidas-logo-6-copy@2x.png');
+        background-size: cover;
+      }
+    }
+    .title {
+      margin-bottom: 18px;
+      width: 184px;
+      height: 22px;
+      font-family: 'Montserrat Montserrat-SemiBold';
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffffff;
+
+      header {
+        // font-size: 18px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .user_info_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 30px 50px 0;
+
+    .user_info_box {
+      .user_name {
+        margin-right: 9px;
+        width: 68px;
+        height: 18px;
+        font-family: 'Montserrat Montserrat-Medium';
+        font-size: 14px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+      .user_state {
+        // width: 41px;
+        margin-right: 13px;
+        height: 14px;
+        text-align: end;
+        font-family: 'Montserrat Montserrat-Medium';
+        font-size: 11px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+    }
+    .user_profile_img {
+      .profile_img {
+        padding-top: 2px;
+        width: 34px;
+        height: 34px;
+        // box-shadow: -1px 1px 6px 0 rgba(0, 0, 0, 0.9);
+      }
+    }
+  }
+}

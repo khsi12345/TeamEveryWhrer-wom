@@ -1,0 +1,40 @@
+.item_btn {
+  // position: absolute;
+  // z-index: 3;
+  .btn {
+    position: absolute;
+    margin-left: 24%;
+    bottom: 18px;
+    font-family: Helvetica;
+    font-size: 16.4px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    border-radius: 14.3px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    z-index: 3;
+  }
+}
+.item_btn_big {
+  // position: absolute;
+  // z-index: 3;
+  .btn {
+    position: absolute;
+    margin-left: 40%;
+    bottom: 28px;
+    font-family: Helvetica;
+    font-size: 16.4px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    border-radius: 14.3px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    z-index: 3;
+  }
+}

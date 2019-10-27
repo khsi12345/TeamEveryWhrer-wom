@@ -1,0 +1,168 @@
+.campaign {
+  max-width: 1900px;
+  padding: 0 45px;
+  // margin: 0 45px;
+
+  .card_list {
+    display: flex;
+    justify-content: center;
+    // :last-child {
+    //   margin-right: 0;
+    // }
+  }
+  .line {
+    margin-top: 55px;
+    margin-bottom: 24px;
+    object-fit: contain;
+    border: solid 2px #f5f5f5;
+  }
+  .item_list_title {
+    table {
+      border-spacing: 0;
+      font-family: 'Montserrat Montserrat-SemiBold';
+      font-size: 20px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #0f1642;
+      thead {
+        tr {
+          .title {
+            font-family: 'Montserrat Montserrat-Bold';
+            font-size: 20px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #0f1642;
+          }
+        }
+        .title.long_padding {
+          padding: 0 35px;
+        }
+        .title.short_padding {
+          padding: 0 35px;
+        }
+      }
+      // .tbody {
+      //   border-top: solid 3px #ededed;
+      //   border-bottom: solid 3px #ededed;
+      // }
+      // .item {
+      //   // width: 100%;
+      //   // border-radius: 20px;
+      //   //   border: solid 3px #ededed;
+      //   //   border-radius: 20px;
+      // }
+
+      .tbody.long_padding {
+        padding: 0 75px;
+      }
+      .tbody.short_padding {
+        padding: 0 0 0 35px;
+      }
+      .tbody.name {
+        padding-top: 30px;
+        padding-left: 20px;
+        border-top: solid 3px #ededed;
+        border-top-left-radius: 20px;
+        border-left: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+        border-bottom-left-radius: 20px;
+      }
+      .tbody.product {
+        padding-bottom: 24px;
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.budget {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.spen {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.preview {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.view {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.engage {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.click {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+      .tbody.buy {
+        border-top: solid 3px #ededed;
+        border-bottom: solid 3px #ededed;
+      }
+    }
+  }
+}
+.campaign .item_list_title table thead .title.long_padding:first-child {
+  padding-left: 20px;
+}
+.blank {
+  margin-bottom: 24px;
+}
+.product_img {
+  margin-top: 10px;
+}
+.page_number {
+  position: absolute;
+  margin-left: 33%;
+  padding-bottom: 53px;
+  bottom: 0;
+}
+.remove_btn_box {
+  padding: 30px 20px 0 62px;
+  border-top: solid 3px #ededed;
+  border-right: solid 3px #ededed;
+  border-top-right-radius: 20px;
+  .remove_btn {
+    width: 186px;
+    height: 45px;
+    font-family: 'Montserrat Montserrat-SemiBol';
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0f1642;
+    border-radius: 22.5px;
+    border: solid 2px #0f1642;
+    background-color: #ffffff;
+  }
+}
+.detail_btn_box {
+  padding: 12px 0 51px 62px;
+  border-right: solid 3px #ededed;
+  border-bottom: solid 3px #ededed;
+  border-bottom-right-radius: 20px;
+  .detail_btn {
+    width: 186px;
+    height: 45px;
+    font-family: 'Montserrat Montserrat-SemiBol';
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    border-radius: 22.5px;
+    border: solid 2px #0f1642;
+    background-color: #000000;
+    color: #ffffff;
+  }
+}

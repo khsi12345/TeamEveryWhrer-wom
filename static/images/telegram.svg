@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="185px" height="44px" viewBox="0 0 185 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 58 (101010) - https://sketch.com -->
+    <title>3C58286A-D242-4D30-8F01-F3A1658A728D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="1.35011933e-05 1.2859553e-05 22 1.2859553e-05 22 20.166245 1.35011933e-05 20.166245"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-(wom)" transform="translate(-1235.000000, -1927.000000)">
+            <g id="Social" transform="translate(979.000000, 1927.000000)">
+                <g id="Icon/Telegram" transform="translate(256.000000, 0.000000)">
+                    <rect id="Rectangle-15" fill="#3333FF" fill-rule="nonzero" x="0" y="0" width="185" height="44" rx="22"></rect>
+                    <g id="Group-3" transform="translate(21.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M16.93516,17.8299 L11.63921,13.5234 L9.99581,15.112075 L10.35716,11.73205 L17.41641,5.041575 L7.793885,10.754425 L3.52561,9.230925 L19.810285,2.452725 L16.93516,17.8299 Z M20.39411,0.22385 L0.856185,8.3556 C0.856185,8.3556 -0.06754,8.691375 0.00396,9.310675 C0.077385,9.931075 0.83116,10.214875 0.83116,10.214875 L5.747335,11.969925 C5.747335,11.969925 7.231235,17.132225 7.523285,18.114525 C7.815335,19.094075 8.049635,19.117175 8.049635,19.117175 C8.32161,19.242575 8.568835,19.042925 8.568835,19.042925 L11.745085,15.97145 L16.69536,19.998 C18.034335,20.617575 18.521635,19.326725 18.521635,19.326725 L22.00011,0.715275 C22.00011,-0.524425 20.39411,0.22385 20.39411,0.22385 L20.39411,0.22385 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                    <text id="Chat-with-us-on" font-family="Helvetica" font-size="11" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="64" y="16">Chat with us on</tspan>
+                    </text>
+                    <text id="Telegram" font-family="Helvetica" font-size="12" font-weight="normal" letter-spacing="1" fill="#FFFFFF">
+                        <tspan x="64" y="32">TELEGRA</tspan>
+                        <tspan x="127.015625" y="32">M</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

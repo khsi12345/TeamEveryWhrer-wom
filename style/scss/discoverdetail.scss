@@ -4,6 +4,7 @@
   border-radius: 20px;
   min-width: 1595px;
   margin-left: 39px;
+  margin-top: 30px;
 
   .discover_detail_content_wrapper {
     margin-top: 30px;
@@ -69,7 +70,7 @@
             }
           }
           .discover_detail_img {
-            background-image: url("/static/images/list6.png");
+            background-image: url('/static/images/list6.png');
             width: 371px;
             height: 590px;
             position: relative;
@@ -240,6 +241,7 @@
       }
       .detail_chart_wrapper {
         position: relative;
+        margin-top: 25px;
       }
     }
   }

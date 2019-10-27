@@ -86,7 +86,7 @@ class Home extends PureComponent {
             </button>
           </div>
         </div>
-        <Footer />
+        <Footer className="footer" />
       </>
     );
   }

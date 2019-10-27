@@ -6,10 +6,10 @@ import CampaignItem from 'components/CampaignItem';
 import data from 'data/data.json';
 import data2 from 'data/data2.json';
 import 'style/scss/campaign.scss';
+import Layout from 'components/Layout';
 import CampaignMain from './CampaignSummary/CampaignMain';
 import SummaryNone from './CampaignSummary/SummaryNone';
-import Layout from '../components/Layout';
-import CurvedBoard from '../components/CurvedBoard';
+import CurvedBoard from 'components/CurvedBoard';
 
 class Campaign extends PureComponent {
   constructor() {

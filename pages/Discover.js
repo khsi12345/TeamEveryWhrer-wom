@@ -28,7 +28,6 @@ class Discover extends PureComponent {
               </button>
               <Filter />
               <div className="discover_convert_area">
-                {/* <DiscoverDetail /> */}
                 <div className="img_list">
                   {ImgList.map(el => (
                     <>

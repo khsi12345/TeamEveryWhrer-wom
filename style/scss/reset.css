@@ -77,6 +77,10 @@ video {
   font-weight: normal;
   letter-spacing: 1px;
 }
+html,
+body {
+  height: 100%;
+}
 ​ * {
   box-sizing: border-box;
   text-decoration: none;

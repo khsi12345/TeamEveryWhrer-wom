@@ -1,3 +1,5 @@
+@import './media.scss';
+
 .campaign_none {
   height: 750px;
   .campaign_none_wrap {
@@ -26,4 +28,31 @@
       color: #0f1642;
     }
   }
+  .create_campaign .create_btn {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+@include lg {
+  .campaign_none .create_campaign .create_btn {
+    width: 241px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .campaign .item_list_title table thead .title.long_padding:first-child {
+    padding-left: 0px;
+  }
+  .campaign .item_list_title table thead .title.long_padding {
+    padding: 0px;
+  }
+  // .campaign .item_list_title table thead tr .title {
+  //   font-family: 'Montserrat Montserrat-Bold';
+  //   font-size: 14px;
+  //   font-weight: bold;
+  //   line-height: normal;
+  //   letter-spacing: normal;
+  //   color: #0f1642;
+  // }
 }

@@ -13,8 +13,8 @@ class Admin extends PureComponent {
         className="big_footer"
       >
         <AdminCurvedBoard>
-          <Organisation />
-          {/* <User /> */}
+          {/* <Organisation /> */}
+          <User />
         </AdminCurvedBoard>
       </Layout>
     );

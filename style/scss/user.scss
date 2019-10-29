@@ -1,3 +1,5 @@
+@import './media.scss';
+
 .user {
   padding: 0 45px;
 
@@ -18,6 +20,7 @@
       letter-spacing: normal;
       color: #ffffff;
       text-align: left;
+      vertical-align: middle;
     }
     td {
       padding-top: 5px;
@@ -30,11 +33,7 @@
       line-height: normal;
       letter-spacing: normal;
       color: #151515;
-
-      .tag {
-        // width: 100%;
-        // padding: 8px;
-      }
+      vertical-align: middle;
     }
     // .inline {
     //   display: inline;
@@ -65,8 +64,93 @@
     }
   }
   .page_number {
-    position: absolute;
-    margin-left: 33%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 844px;
+    padding-bottom: 53px;
+    bottom: 0;
+  }
+}
+
+@include md {
+  .user .table {
+    padding-right: 0px;
+  }
+  .user .table {
+    tbody {
+      tr {
+        td {
+          font-size: 16px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .user .table .plus {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .page_number {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 854px;
+    padding-bottom: 53px;
+    bottom: 0;
+  }
+}
+@include lg {
+  .user .table {
+    padding-right: 120px;
+  }
+  .user .table .th_User {
+    width: 340px;
+  }
+  .user .table .th_Func {
+    width: 240px;
+  }
+  .user .table {
+    tbody {
+      tr {
+        td {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .user .page_number {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 840px;
+    padding-bottom: 53px;
+    bottom: 0;
+  }
+}
+@include xl {
+  .user .table {
+    padding-right: 200px;
+  }
+  .user .table .th_User {
+    width: 246px;
+  }
+  .user .table .th_Func {
+    width: 245px;
+  }
+  .user .table {
+    tbody {
+      tr {
+        td {
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .user .page_number {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 898px;
     padding-bottom: 53px;
     bottom: 0;
   }

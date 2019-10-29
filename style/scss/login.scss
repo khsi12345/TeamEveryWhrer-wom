@@ -369,20 +369,64 @@
 }
 @include lg {
   .login_page .login_wrap .login_info_wrap {
-    top: 20px;
+    top: 80px;
+    height: 550px;
   }
   .login_page .account {
-    position: unset;
-    margin-top: 34px;
+    // position: relative;
+    margin-top: 104px;
+  }
+  .login_page .login_wrap .login_info_wrap .login_info_container .login_btn {
+    margin: 80px auto;
+  }
+  .login_page
+    .login_wrap
+    .login_info_wrap
+    .login_info_container
+    .info_wrap
+    .mail_input {
+    height: 50px;
+  }
+  .login_page
+    .login_wrap
+    .login_info_wrap
+    .login_info_container
+    .info_wrap
+    .password_input {
+    height: 50px;
   }
 }
 @include xl {
+  .login_page .login_wrap .login_info_wrap .login_info_container {
+    position: relative;
+    top: 36px;
+  }
   .login_page .login_wrap .login_info_wrap {
     top: 133px;
     height: 639px;
   }
+  .login_page
+    .login_wrap
+    .login_info_wrap
+    .login_info_container
+    .title_box
+    .title {
+    margin-bottom: 17px;
+    font-size: 32px;
+  }
+  .login_page
+    .login_wrap
+    .login_info_wrap
+    .login_info_container
+    .title_box
+    .subtitle {
+    font-size: 18px;
+  }
+  .login_page .login_wrap .login_info_wrap .login_info_container .login_btn {
+    margin: 87px auto;
+  }
   .login_page .account {
     position: relative;
-    top: 133px;
+    margin-top: 22px;
   }
 }

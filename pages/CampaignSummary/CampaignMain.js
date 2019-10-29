@@ -171,12 +171,12 @@ class SummaryNone extends PureComponent {
           <div className="main line bottom" />
           <div className="text">Options</div>
           <div className="main_option">
-            <div>
-              <span>Satched Override</span>
+            <div style={{ display: 'flex' }}>
+              <div style={{ marginBottom: '8px' }}>Satched Override</div>
               <Toggle />
             </div>
-            <div>
-              <span>Must Watch</span>
+            <div style={{ display: 'flex' }}>
+              <div style={{ marginBottom: '8px' }}>Must Watch</div>
               <Toggle />
             </div>
             <div className="boost">
@@ -224,9 +224,7 @@ class SummaryNone extends PureComponent {
             <span>Set budget to</span>
             <div className="temp">
               <span className="num">20.000</span>
-              <span className="tempAbsolute" style={{ fontSize: '26px' }}>
-                € 2000 est
-              </span>
+              <span className="tempAbsolute">€ 2000 est</span>
             </div>
             <span>Starting on</span>
             <span className="num">25/07/19</span>

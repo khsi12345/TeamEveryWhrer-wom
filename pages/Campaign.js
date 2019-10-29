@@ -7,9 +7,9 @@ import data from 'data/data.json';
 import data2 from 'data/data2.json';
 import 'style/scss/campaign.scss';
 import Layout from 'components/Layout';
+import CurvedBoard from 'components/CurvedBoard';
 import CampaignMain from './CampaignSummary/CampaignMain';
 import SummaryNone from './CampaignSummary/SummaryNone';
-import CurvedBoard from 'components/CurvedBoard';
 
 class Campaign extends PureComponent {
   constructor() {
@@ -39,7 +39,7 @@ class Campaign extends PureComponent {
       >
         <CurvedBoard>
           <div className="campaign">
-            <CampaignMain />
+            {/* <CampaignMain /> */}
 
             {/* 페이지에 list item이 없는 페이지 */}
             {/* <div className="card_list">
@@ -57,7 +57,7 @@ class Campaign extends PureComponent {
             <SummaryNone /> */}
 
             {/* 페이지에 list item이 있는 페이지 */}
-            {/* <CreateCampaign className="create_btn" />
+            <CreateCampaign className="create_btn" />
             <div className="card_list">
               {this.state.card.map(el => {
                 return (
@@ -97,7 +97,7 @@ class Campaign extends PureComponent {
             </div>
             <div className="page_number">
               <PageNumber />
-            </div> */}
+            </div>
           </div>
         </CurvedBoard>
       </Layout>

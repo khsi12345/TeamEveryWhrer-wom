@@ -28,7 +28,7 @@ class Admin extends PureComponent {
               <td className="th_User">email@adidas.com</td>
               <td className="th_Name">Adidas</td>
               <td className="th_Name">&nbsp;</td>
-              <td>
+              <td className="th_Func">
                 <button type="button" className="plus text">
                   PW RESET
                 </button>

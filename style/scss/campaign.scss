@@ -1,3 +1,5 @@
+@import './media.scss';
+
 .campaign {
   max-width: 1900px;
   padding: 0 45px;
@@ -120,8 +122,9 @@
   margin-top: 10px;
 }
 .page_number {
-  position: absolute;
-  margin-left: 33%;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 820px;
   padding-bottom: 53px;
   bottom: 0;
 }
@@ -167,3 +170,16 @@
     color: #ffffff;
   }
 }
+@include md {
+  .create_campaign .create_btn {
+    display: none;
+  }
+}
+@include lg {
+  .create_campaign .create_btn {
+    display: block;
+  }
+}
+// @include xl {
+
+// }
